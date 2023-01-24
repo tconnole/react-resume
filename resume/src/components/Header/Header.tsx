@@ -18,7 +18,7 @@ const menuLinkStyle = {
     textDecoration: 'none',
     color: 'black',
     width: '70%',
-    alignText: 'center'
+    alignText: 'center',
 }
 
 function Header() {

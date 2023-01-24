@@ -1,5 +1,13 @@
 .projects-container {
-    height: calc(100% - 2rem);
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.projects-list {
     padding: 1rem;
+    padding-top: 0;
+    height: calc(100% - 2rem);
+    width: 100%;
     overflow: auto;
 }

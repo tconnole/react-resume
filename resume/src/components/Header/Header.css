@@ -51,6 +51,7 @@
     border: white 0.1rem solid;
     padding: 0.25rem;
     border-radius: 4rem;
+    overflow: hidden;
 }
 .link {
     padding: 0.5rem;

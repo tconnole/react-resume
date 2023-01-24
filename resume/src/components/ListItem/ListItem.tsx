@@ -13,7 +13,7 @@ function ListItem(props: TimelineItemProps) {
         <div className='timeline-item'>
             <div className='marker'></div>
             <div className="timeline-item-container">
-                <h3 className='title'>{props.title} <a href={props.link}>{props.link}</a></h3>
+                <h3 className='title'>{props.title} {props.link ? <a href={props.link}>{props.link}</a> : <></>}</h3>
                 <h5 className='sub-title'>{props.subTitle}</h5>
                 { props.content ? 
                     <div className='content'>{props.content}</div> :

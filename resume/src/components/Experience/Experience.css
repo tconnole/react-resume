@@ -50,7 +50,7 @@ h3, h2 {
     gap: 1rem;
 }
 
-@media (max-width: 670px) {
+@media screen and (max-width: 670px) {
     .year-menu {
         padding: 0.25rem;
     }
