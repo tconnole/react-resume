@@ -9,6 +9,9 @@ function Contact() {
         <a href="https://www.linkedin.com/in/thomas-connole-baa593161/" className='contact-info-container'>
             <h4>LinkedIn</h4>
         </a>
+        <a href="https://github.com/tconnole" className='contact-info-container'>
+            <h4>Github</h4>
+        </a>
       </div>
     );
   }
