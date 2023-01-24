@@ -1,0 +1,35 @@
+.nav-menu-container {
+    position: relative;
+}
+
+.nav-menu-container .icon {
+    height: 1.8rem;
+    aspect-ratio: 1;
+    position: fixed;
+    cursor: pointer;
+}
+
+.nav-menu-container .cover {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000099;
+    right: 0;
+    top: 0;
+}
+
+.nav-menu-container .cover .panel {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: fixed;
+    width: 80vw;
+    height: 100vh;
+    background-color: white;
+    right: 0;
+    top: 0;
+    transition: all 0.25s;
+    overflow: auto;
+}
