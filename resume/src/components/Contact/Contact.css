@@ -11,7 +11,6 @@
     padding: 0.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    /* outline: 0.1rem white solid; */
     border-radius: 0rem;
     display: flex;
     flex-direction: row;
@@ -20,7 +19,6 @@
 
 .contact-container a {
     color: white;
-    /* text-decoration: none; */
     width: 360px;
     max-width: 80vw;
 }
@@ -33,4 +31,13 @@
 .contact-container a h4 {
     flex-grow: 1;
     text-align: center;
+}
+
+@media screen and (max-width: 670px) {
+    .contact-container {
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
 }

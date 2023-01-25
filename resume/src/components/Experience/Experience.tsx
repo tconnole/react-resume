@@ -54,7 +54,7 @@ function Experience() {
             <ListItem 
                 title='Started Systems Engineering Internship'
                 subTitle='Union Pacific - Omaha, NE'
-                content='TODO'
+                content='I Started my tech career off to an interesting start, working on a major Windows administration project for Union Pacific. I got to experience a lot of different techinical avenues including hardware installation, software installation, software development, and project administration. This job taught me a lot of basics in the IT world and helped me with acclimating to a corporate environment.'
                 skills={['PYTHON', 'SSH', 'CYPRESS', 'WINDOWS ADMINSTRATION', 'SOFTWARE INSTALLATION', 'HARDWARE INSTALLATION']}
             />
         </div>
@@ -68,7 +68,7 @@ function Experience() {
                 <ListItem 
                 title='Software Engineer (SEMS III)'
                 subTitle='Teksystems, subcontractor for Northrop Grumman - Bellevue, NE'
-                content='TODO'
+                content="SEMS III was my first full time software development positiion and just like my intership it came with loads of experience. My team was responsible for new development on current weather applications and maintance on production systems and software. Since we worked on a priority kanban framework, I didn't really get to spread my wings and show off my creativity. However instead I learned how to quickly pickup new tools, software, projects, and languages."
                 skills={['PYTHON', 'SSH', 'JAVASCRIPT', 'JAVA', 'ATLASSIAN', 'AGILE', 'GIT', 'VisualWeather']}
             />
             </div>
@@ -82,12 +82,12 @@ function Experience() {
                 <ListItem 
                 title='Associate Software Engineer (RECAP)'
                 subTitle='Northrop Grumman - Bellevue, NE'
-                content='TODO'
+                content="RECAP was the first project that really cemented my love for front-end development. With a developer lead agile team, a lot of creative and techinical decisions were left up to developers. This helped a lot with building confidence as a developer and forming good development habits. This full stack position taught me a lot about good practices with organizing and developing TypeScript front-ends, Java back-ends, api's, databases, test suites, and development operations."
                 skills={['JAVA', 'PYTHON', 'TYPESCRIPT', 'ANGULAR', 'MATERIAL', 'ORACBLE DB', 'GRADLE', 'DOCKER', 'GIT', 'CYPRESS', 'JASMINE', 'VSCODE']}/>
                 <ListItem 
                 title='Principle Software Engineer (DARC)'
                 subTitle='Northrop Grumman - REMOTE'
-                content='TODO'
+                content='DARC is the current project that I am working on. It is very similar to my previous project, but with more responsibility, newer technologies, and more complicated front-end implementation. Currently my favorite part about this project is our ability to work extremely closely with our users and implement UI / UX principles affectively.'
                 skills={['TYPESCRIPT', 'REACT', 'MUI', 'NX', 'KEYCLOAK', 'GRAPHQL', 'KSQL', 'DOCKER', 'GIT', 'STORYBOOK', 'THREEJS', 'VSCODE', 'ADOBE ILLUSTRATOR']}/>
             </div>
         </div>

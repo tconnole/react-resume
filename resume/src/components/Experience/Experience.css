@@ -58,6 +58,6 @@ h3, h2 {
     .present {
         width: 3rem;
         overflow: hidden;
-        text-overflow: clip;
+        text-overflow: ellipsis;
     }
 }

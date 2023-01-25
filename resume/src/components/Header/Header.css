@@ -67,12 +67,25 @@
     background-color: white;
 }
 
+.page-labels {
+    display: none;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
 h4 {
     padding: 0;
     margin: 0;
 }
 
 @media (max-width: 670px) {
+    .container {
+        gap: 0;
+    }
+
     .user {
         justify-content: space-between;
     }
@@ -86,6 +99,14 @@ h4 {
       display: none;
     }
 
+    .page-labels {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-top: 0.5rem;
+    }
+
     .user .title {
         flex-direction: column;
         justify-content: center;
@@ -94,6 +115,7 @@ h4 {
 
     .job {
         opacity: 0.5;
+        font-size: 0.9rem;
     }
 
     .spacer {

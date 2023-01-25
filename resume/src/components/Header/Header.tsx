@@ -56,6 +56,11 @@ function Header() {
                     <div className='link-container'><h4 className={'link' + selected('contact')}>CONTACT INFORMATION</h4></div>
                 </Link>
             </div>
+            <div className="page-labels">
+                <h1 style={{display: selected('experience') ? '': 'none'}}>WORK EXPERIENCE</h1>
+                <h1 style={{display: selected('project') ? '': 'none'}}>PROJECTS</h1>
+                <h1 style={{display: selected('contact') ? '': 'none'}}>CONTACT INFORMATION</h1>
+            </div>
         </div>
     );
   }
