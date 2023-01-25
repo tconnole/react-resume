@@ -15,7 +15,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<App />}>
+        <Route path='' element={<Navigate to='/react-resume' />}/>
+        <Route path='*' element={<Navigate to='/react-resume' />}/>
+        <Route path='/react-resume' element={<App />}>
             <Route path='' element={<Navigate to='experience' />} />
             <Route path='*' element={<Navigate to='experience' />} />
             <Route path='experience' element={<Experience />} />
